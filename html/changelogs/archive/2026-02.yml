@@ -398,3 +398,36 @@
   - rscadd: A signal was added to bone fixing surgery, for potential future uses where
       a bone repair surgery might not work.
   - bugfix: Added spotlight light tubes to the autolathe.
+2026-02-22:
+  Hellfirejag:
+  - bugfix: Fixed the Set Odyssey verb not working. It can now be used anytime after
+      initialization, but before the round actually starts.
+  JohnWildkins:
+  - bugfix: Fixed devs and other non-modmin staff getting errors attempting to submit/reply
+      to ahelps.
+  MattAtlas:
+  - bugfix: Potentially fix a hard delete to do with status icons.
+  TheGreyWolf:
+  - rscadd: Native tajaran foot-wear has been renamed to kah'romra.
+  - rscadd: Changed the default taj shoes from sandals to kah'romra.
+  Tomixcomics:
+  - rscadd: Added Cytherian cuisine to the game with 4 specifically cytherian dishes
+      as well as some popcorn flavors.
+  - rscadd: Added Adhomian cheese and two new Adhomian cuisine dishes for everyone
+      who has been asking for more Tajaran foods.
+  - rscadd: Added an alternate, vegan way to make dough that doesn't require eggs.
+  - rscadd: Added cheese-less omelettes.
+  - rscadd: Added a few other miscellaneous dishes such as Poutine, Churros, and chocolate
+      pizzas.
+  - rscadd: Trays of clams casino now dispense individual clams that can be eaten
+      seperately.
+  - rscadd: Added a new kitchen bounty for some of the new desserts and added the
+      new tajaran dishes to the adhomian cuisine bounty.
+  - qol: Changed North Sixty seafood platters to include regular clams instead of
+      R'sval clams since R'sval clams are Adhomian and I suspect regular clams were
+      the intention for this dish all along.
+  - qol: Renamed the old tossed salad to 'apple salad', now that there's a newe, less
+      fruit-based tossed salad.
+  - bugfix: Made it so onion rings can be placed freely like every other food instead
+      of being locked to one spot.
+  - bugfix: Fixed description typos.
