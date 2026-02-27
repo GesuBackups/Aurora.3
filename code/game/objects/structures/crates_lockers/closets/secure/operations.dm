@@ -53,6 +53,7 @@
 	new /obj/item/storage/belt/utility(src)
 	new /obj/item/flashlight/marshallingwand(src)
 	new /obj/item/flashlight/marshallingwand(src)
+	new /obj/item/paint_sprayer(src)
 
 // Machinist
 /obj/structure/closet/secure_closet/machinist
