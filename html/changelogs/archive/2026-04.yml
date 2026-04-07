@@ -67,3 +67,7 @@
   Yonnimer:
   - balance: Gives Geras Dionae a general speed buff, taking them from 2.2x slower
       than humans to about 1.5, or a little faster than G2S.
+2026-04-07:
+  Kano:
+  - rscadd: Added whiteboards, sprites by KingOfThePing.
+  - qol: Gave barsigns and its subtypes a tgui menu.
