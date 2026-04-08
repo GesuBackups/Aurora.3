@@ -1,4 +1,0 @@
-author: fyni
-delete-after: True
-changes:
-  - bugfix: "Fixes the sprites for the laser rifle by adding the drained states"
