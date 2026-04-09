@@ -116,3 +116,22 @@
   - bugfix: Fixes the PRA Submarine Coat closed state not working by removing six
       letters from the sprite sheet. Whoops!
   - rscadd: Adds the PRA submarine coat, available in the loadout for Tajara characters.
+2026-04-09:
+  Arbiterambrose:
+  - bugfix: Fixed Vaurca and Skrell hardsuits not spawning in operative crates.
+  - balance: Added belt and back slot as choices for the thermal blade.
+  CatsinHD:
+  - rscadd: Added Kalkii Dynhvah's custom item.
+  Fenodyree:
+  - bugfix: Fixes flashbangs not damaging the hand they explode in.
+  Hellfirejag:
+  - bugfix: Fixed a hard del related to freelook cameras.
+  - bugfix: Fixed a hard delete related to telescience portals.
+  - bugfix: Fixed some hard dels related to Destroy() procs triggering in the wrong
+      order of operations.
+  TheGreyWolf:
+  - bugfix: Fixes ID being ejected on the floor when going to cryo/residential deck.
+  - rscadd: The tesla hardsuit now requires an advanced military grade tesla spine
+      to use.
+  - rscdel: The tesla hardsuit has been removed from the golden deep submap and replaced
+      with a hazard and AMI rig instead.
