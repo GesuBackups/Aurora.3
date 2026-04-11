@@ -144,3 +144,6 @@
   - rscadd: Added a new version for radioactive green glow and waste barrels, radiation
       level very high.
   - rscdel: Removed the LRP hairloss on radiation exposure.
+2026-04-11:
+  Hellfirejag:
+  - bugfix: Fixed a hard delete related to pants.
