@@ -175,3 +175,34 @@
   - refactor: Refactored the air alarm, atmospheric alert computer, oxygen regenerator,
       omni gas mixer, and omni gas filter from NanoUI to TGUI.
   - refactor: Updates the Library Machines to TGUI
+2026-04-13:
+  Batrachophrenoboocosmomachia:
+  - bugfix: Fixes light and dark sensitivity trait behaviors being locked behind an
+      unrelated rare prob event.
+  - balance: Makes light sensitivity apply the basic low-level flash effect when triggered
+      (trivial eye damage that immediately heals, very brief translucent grey overlay).
+  - balance: Makes minor+ flash protection (basic sunglasses etc.) protect against
+      bright lights for affected characters.
+  Hellfirejag:
+  - bugfix: Made a 2nd attempt to fix the instruments memory leak.
+  - rscdel: Sheet Snatchers no longer flood your chat with messages.
+  - bugfix: Fixed a hard delete in water effects.
+  - bugfix: Fixed a memory leak related to projectiles.
+  - bugfix: Finally fixed the pants memory leak. It is no longer possible to accidentally
+      put Abstract (not real) pants in your loadout.
+  - bugfix: Fixed drugs being extremely chat spammy.
+  - bugfix: Tweaked bluespace techs to hold a weakref to their original mob instead
+      of a real reference, in order to mitigate race condition hard deletes.
+  - bugfix: Fixed a spammy nonsense runtime error related to signals.
+  - bugfix: Fixed doors with shutters not responding to clicking the tile underneath
+      them.
+  - bugfix: Fixed numerous hard dels that were universal to all hostile mobs.
+  arrow768:
+  - bugfix: Fixes being unable to change the temperature on an air alarm without unlocking
+      it.
+  - rscdel: Fixes missing toolbar after unlocking the air alarm.
+  diggiez:
+  - rscadd: Commune can now be used on adjacent objects to later send a mental image
+      of their icon and examine, like a psionic Show-Held-Item
+  - rscadd: With a mental image stored, Commune may be used in hand to warp and add
+      custom text after its description.
