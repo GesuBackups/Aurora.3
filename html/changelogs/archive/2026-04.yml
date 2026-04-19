@@ -280,3 +280,8 @@
 2026-04-18:
   Hellfirejag:
   - bugfix: Fixed LED collars becoming excessively bright if you change their color.
+2026-04-19:
+  Hellfirejag and Matt Atlas:
+  - rscadd: Added a basic initial implementation of a Mechanical Skills System.
+  TheGreyWolf:
+  - bugfix: Fixed some things regarding the nation blacklist check for factions.
