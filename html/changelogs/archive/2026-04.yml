@@ -342,3 +342,39 @@
   fyni:
   - rscadd: "Adds Drosi\xE1 Cherry soda, and rejigs the grape soda to be Drosi\xE1\
       \ Grape soda. Assunzione's favourite soft drink!"
+2026-04-21:
+  CatsinHD:
+  - rscadd: Added the name of the scanned crate onto the name of the printed crate
+      content manifest.
+  Fenodyree:
+  - balance: Adjusts piercing chance to be based more on armour piercing than damage.
+      This nerfs the STS from 55% pierce chance to 30%
+  - balance: Multiplies piercing chance by anti-material potential. This gives the
+      PEAC 100% pierce chance.
+  - balance: Projectile damage is now reduced by default 30% on every pierce. This
+      can be set per projectile. Ship weapons only lose 5% damage.
+  - bugfix: Fixes combat actuators leap and grab failing and breaking your movement
+      forever.
+  - bugfix: Fixes human shields not working. If you are redgrabbing someone and facing
+      the direction the shot comes from, the shot will hit your hostage instead of
+      you. Point-blank shots ignore this. Piercing shots can hit both.
+  Hellfirejag:
+  - bugfix: Fixed a hard del related to doafter progress bars. This one was incredibly
+      niche.
+  - bugfix: Some more fixes for a variety of hard dels..
+  Kano:
+  - qol: Tweaked the Deck 3 Security hallway and interrogation room.
+  - rscadd: Added a portable whiteboard to investigators office.
+  - bugfix: Added back the missing interrogation camera monitor.
+  SleepyGemmy:
+  - refactor: Refactored the armbands to use contained sprites and cleaned up the
+      code and spritesheet.
+  - bugfix: Fixed chickpeas being unable to spawn in the random produce boxes due
+      to a typo.
+  TheGreyWolf:
+  - bugfix: Fixed the Ao Dai accessory sprites.
+  - bugfix: Fixes stacking materials in the sheet snatcher.
+  - bugfix: Fixes emptying sheet snatchers made material stacks look like they only
+      had 1 item in them.
+  - bugfix: Fixed some mapped objects that no longer existed being mapped on the SFA
+      patrol ship.
