@@ -414,3 +414,36 @@
   - rscadd: Added a custodial airlock.
   TheGreyWolf:
   - rscdel: Job uniforms and suits replaced by loadout items, no longer spawn in bags.
+2026-04-23:
+  Batrachophrenoboocosmomachia:
+  - bugfix: Makes the navigation consoles scattered around the public spaces on the
+      Horizon (that only display nearby starmap) able to be viewed again without any
+      piloting skills.
+  - rscadd: Adds a bar to the top floor of WITCH HAND.
+  - rscadd: Adds minimap support and portable map readers to Port Volturno.
+  - rscadd: Adds support for the Map TGUI to not provide a legend (for non-Horizon
+      maps).
+  - bugfix: Some additional cleanup and tweaking in Port Volturno.
+  - bugfix: Fixed some mapping rendering issues.
+  FabianK3:
+  - bugfix: Fixed persistence being used on non-Horizon maps.
+  - rscadd: Added an admin verb to toggle persistence saving.
+  Fenodyree:
+  - bugfix: Fixes projectile accuracy checks not working. Shots can now miss again.
+  Hellfirejag:
+  - bugfix: Fixed a hard delete related to build mode.
+  Kano:
+  - bugfix: Fixed some atom health bugs and slightly refactored the code.
+  SleepyGemmy:
+  - bugfix: Fixed the tajaran cigarettes being named differently in the loadout.
+  TheGreyWolf:
+  - rscadd: The warden now gets a firing pin extractor.
+  - bugfix: Fixed a large number of overlapping wall objects in operations.
+  - bugfix: Tool storage is now on the same grid as the hallway, rather than on the
+      ops grid.
+  - rscadd: Gave hangar techs a blue toolbox in their lockers to do their job with.
+  - rscadd: Added a sheet snatcher to ops.
+  - rscadd: Moved miner and OM spawn to the ops break room.
+  - rscadd: Made the conveyor on the cargo elevator one shorter, to avoid loose items
+      being shuffled off the elevator.
+  - bugfix: Fixed two sprites mainly seen when mapping random object spawns.
