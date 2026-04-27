@@ -475,3 +475,64 @@
   - rscdel: Removed all job skill requirements that weren't actually mechanically
       necessary.
   - bugfix: Removed a hard del related to material stacks.
+2026-04-27:
+  Batrachophrenoboocosmomachia:
+  - bugfix: Corrects duplicated Engineering skill component definition.
+  - rscdel: Removes deprecated AME code and associated power spritefiles.
+  - rscdel: Removes DNA Modifier NanoUI, replacing interaction behavior with a feedback
+      message.
+  - rscdel: Removes old NanoUI templates for objects whose UIs have already been converted
+      to TGUI, or which had already been removed from the server.
+  - bugfix: After using thermite, replaces the ancient pre-3/4s thermite burnt wall
+      sprite left over with a bubbling mass of molten slag on the floor.
+  - rscadd: Adds a public pool to Port Volturno.
+  - bugfix: Allows borgs to bypass skill checks to toggle emitters.
+  - bugfix: Reduces openspace mimic destruction timers from 10 seconds to 0.1 second
+      to remove persistent ghosting when changing z-levels (such as using stairs or
+      ladders).
+  - bugfix: Ho'taki marksman rifle in Raider prep area now has correct caliber ammunition
+      available next to it.
+  - bugfix: Fixes black shorts being invisible.
+  - bugfix: Removes old grey jean obj defs (no sprites and not used in server).
+  - bugfix: Removes two empty unused sprite icon_states from shorts.dmi
+  - bugfix: Earphones now automatically stop playing when dropped/thrown/etc. to address
+      a few instances of audio strangeness.
+  Hellfirejag:
+  - bugfix: Fixed antags not correctly wiping their skills upon spawning in.
+  - rscdel: Removed circuit boards for deprecated "old mechs" that could no longer
+      be manufactured.
+  - rscdel: Removed the abstract parent of hardsuit circuit boards from circuit board
+      spawners.
+  - rscadd: Reworked surgery to use soft requirements and signals to directly modify
+      the success chances of surgery. These penalties or bonuses stack with those
+      from not having ideal tools.
+  - rscadd: Morale modifiers now affect surgery success rates.
+  Kano:
+  - rscadd: Remapped runtime map to provide easier access to variety of testing.
+  SleepyGemmy:
+  - bugfix: Fixed carts displaying an error message when swapping directions.
+  - config: Renamed the basic role access list and removed the unused expanded role
+      access list.
+  - rscadd: Added a death message.
+  - rscadd: Changed the unconscious and brain damage messages to use the chat examine
+      boxes.
+  - rscadd: Added a colourable double armband.
+  TheGreyWolf:
+  - bugfix: Fixed another circumstance causing the sheet snatcher to show an incorrect
+      amount of sheets in it.
+  - bugfix: The ops status display no longer gets the alert graphics overlaid incorrectly.
+  - bugfix: Fixed that creating a head rev traitor was bugged.
+  - bugfix: Yokes now appear empty when the contents are transfered to a fridge.
+  Yonnimer:
+  - rscadd: Adds a armored carp, effectively a tame carp for primarily voidtamers.
+  - rscadd: Adds a new dock to the voidtamer ship that lets ships such as the spark
+      dock with it.
+  - bugfix: Fixes the waste pipe on the voidtamer ship.
+  arrow768:
+  - code_imp: Added Sentry.io integration (SSsentry) for capturing runtime exceptions,
+      SQL errors, and hard-delete overruns to an external error tracking service.
+  - code_imp: SSsentry can now ship per-window BYOND profiler dumps to Sentry as events
+      with the raw JSON attached and the top-N hottest procs in the event extras (opt-in
+      via CAPTURE_PROFILER).
+  - server: Added config/sentry.txt support for configuring the Sentry DSN and capture
+      settings. See config/example/sentry.txt for setup instructions.
