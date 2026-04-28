@@ -536,3 +536,14 @@
       via CAPTURE_PROFILER).
   - server: Added config/sentry.txt support for configuring the Sentry DSN and capture
       settings. See config/example/sentry.txt for setup instructions.
+2026-04-28:
+  Batrachophrenoboocosmomachia:
+  - refactor: Migrates DNA Analyzer NanoUI to TGUI.
+  - refactor: Migrates Engines Control NanoUI to TGUI.
+  - qol: DNA Analyzer reports now provide the date and time the scan was produced.
+  - bugfix: Ship computers no longer function after their power is cut.
+  GeneralCamo:
+  - rscadd: Allowed NKA and FTC tajara to be part of Zavodskoi.
+  - rscdel: Disallowed NKA and FTC tajara to be part of Hephaestus.
+  Kano:
+  - rscadd: Ported some hairstyles from Shiptest.
