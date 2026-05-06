@@ -35,3 +35,6 @@
   - bugfix: Fixed several outdated item paths found on away maps.
   fyni:
   - rscadd: Adds the Outer Eyes voidsuit, and new gear loadouts featuring it for Antags!
+2026-05-06:
+  fyni:
+  - bugfix: Makes the Outer Eyes helmet properly appear on sprite.
