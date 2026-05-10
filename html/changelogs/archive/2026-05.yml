@@ -59,3 +59,6 @@
   - bugfix: Makes blobs no longer immortal.
   Kano:
   - bugfix: Fixed walls not updating damage overlay status when fixed.
+2026-05-10:
+  arrow768:
+  - bugfix: Fixes an issue with deleting tgui buttons on alerts.
